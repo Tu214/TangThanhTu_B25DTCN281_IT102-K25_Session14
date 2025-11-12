@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool perfectNumber(int n) {
+int perfectNumber(int n) {
     if (n <= 0)
         return false;
 
@@ -34,4 +34,5 @@ int main() {
 
     return 0;
 }
+
 
